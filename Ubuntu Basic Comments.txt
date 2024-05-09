@@ -1,0 +1,76 @@
+ssh username@(ip address or linux machine) --> VM link service command
+
+ifconfig				   --> find ip address
+
+ip address				   --> find ip address
+
+clear 					   --> clear a terminal spaces
+
+ls 					   --> listing all files in working directory
+
+ls -l   				   --> detailed listing of files and directories in current directory
+
+ls -al 					--> for listing all files with hidden files details
+
+pwd 					--> print working directory
+
+cd 					--> change directory
+
+cd ..					--> backward to the directory
+
+cd (space nothing) 			--> get Home
+
+touch (filename.txt)			--> easiest way to create file
+
+echo 					--> talk to yourself
+
+nano filename 				--> editing selected file
+
+cat filename.txt 			--> for display contents of the file
+
+less					--> give a one page at a time
+
+head filename.txt			--> only see beginning of your file
+
+tail filename.txt			--> only see bottom of your file
+
+shred filename.txt			--> securely overwritten by multiple files
+
+cmp file1.txt file2.txt 		--> compare two files
+
+diff file1.txt file2.txt 		--> difference on two files
+
+mkdir folder_name			--> make new directory
+
+cp filename.txt				--> copy a file 
+
+mv filename.txt				--> move a file
+
+rm filename.txt				--> remove or delete file
+
+rmdir foldername			--> remove a directory
+
+rmdir -r foldername			--> forcing to remove directory
+
+whoami					--> find username
+
+sudo useradd nickname			--> adding a name 
+
+su nickname				--> switching user
+
+sudo apt install --packagename		--> installing packages
+
+which --packagename			--> tells you one place
+
+curl --link  > filename.txt		--> download files from internet and save on give filename
+
+zip filename				--> to create a zip file
+
+unzip filename.zip			--> unzipping a zip file
+
+sudo find / -name "file*"		--> finding specific file started name like 'file'
+
+ping website.com			--> get responses forever
+
+ps					--> currently running process
+
